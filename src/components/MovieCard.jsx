@@ -1,5 +1,5 @@
 // src/components/MovieCard.jsx
-
+//eslint-disable-next-line
 import React from 'react';
 import './MovieCard.css'; // Optional: Import CSS for styling
 

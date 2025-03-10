@@ -1,5 +1,5 @@
 // src/components/Dashboard.jsx
-
+//eslint-disable-next-line
 import React, { useState } from 'react';
 import MovieCard from './MovieCard';
 import { useNavigate } from 'react-router-dom';
@@ -36,6 +36,7 @@ const Dashboard = () => {
       <header className="dashboard-header">
         <h1>Movie Collection</h1>
       </header>
+      <button className='add-movie-button' onClick={() => navigate('/add-movie')}>Add Movie</button>
       <div className="movie-list">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
